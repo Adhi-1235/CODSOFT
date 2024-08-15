@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+}
+.header-left{
+    display:inline-flex;
+    width: 900px;
+    text-align: center; align-items:center;
+    background-color: aqua;
+}
+@media(min-width:900px){
+  .logo{
+     width:800px;
+  }
+}
+.button1{
+    display:grid;
+    width:100px;
+    padding:6px;
+    height:30px;
+    margin:12px;
+    margin-top:22px;
+    background-color:rgb(44, 211, 22);
+    border:none;
+}
+header{
+    border-bottom:2px;
+    background-color: aqua;
+}
+
+.about1{
+    padding-left:150px;
+    padding-top:50px;
+    padding-right:100px;
+    padding-bottom:50px;
+}
+.about2{
+
+}
